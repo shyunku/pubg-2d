@@ -1,0 +1,19 @@
+.top-bar {
+  .back-button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+    }
+  }
+}
